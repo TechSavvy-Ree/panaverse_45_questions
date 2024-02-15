@@ -6,7 +6,7 @@
 console.log(names);     // Accessing all elements
 
 
-//Accessing each element  of Array  one by one.
+//Accessing each element  of an Array one by one  
 
 console.log(names[0]); //Print 1st element , Smith
 console.log(names[1]); //Print 2nd element , Robert
