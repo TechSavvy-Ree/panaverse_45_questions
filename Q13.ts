@@ -4,5 +4,5 @@
 const vehicle_types: Array<string> = ["Bicycle","Motorcycle", "car",];
 
 vehicle_types.map((item: string) => {
-  console.log(`I would like to own a Honda ${item}.`);
+  console.log(`I would like to own a ${item}.`);
 });
