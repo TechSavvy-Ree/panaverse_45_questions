@@ -2,18 +2,14 @@
 */
 // Step-1: Printing a simple Array
 let locationsList: string[] = [
-    "Saudia Arabia",
-    "Paris",
-    "Tokyo",
-    "Iraq", 
-    "America"
+    "Saudia Arabia","Paris","Tokyo","Iraq", "America"
   ];
 // Step-2:
 console.log("Original Array"); 
 console.log(`----------------------`);
   locationsList.map((location: string) => {
   console.log(location);
-  });
+  }); //Print 
 
   console.log(`----------------------`)
 // Step-3:

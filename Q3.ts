@@ -19,3 +19,6 @@ const subName:Array<string>=Name.split(" ")
  })
  console.log(modifyarry.join(" "))
  export{}
+
+/*.MAP: It allows us to store data in a key-value pair and remembers the
+ original insertion order of the keys  */
