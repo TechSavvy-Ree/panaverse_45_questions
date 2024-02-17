@@ -5,50 +5,45 @@ let locationsList: string[] = [
     "Saudia Arabia","Paris","Tokyo","Iraq", "America"
   ];
 // Step-2:
-console.log("Original Array"); 
-console.log(`----------------------`);
+console.log("---Original Array---"); 
   locationsList.map((location: string) => {
   console.log(location);
-  }); //Print 
-
-  console.log(`----------------------`)
+  }); //Print all elements of Array through it's key value.
 // Step-3:
+console.log("---Alphabetic order---")
   locationsList.sort().map((location: string) => {
    console.log(location);
-  });
-  console.log(`----------------------`)
+  }); //Print in Alphabetic order. 
 // Step-4:
+console.log(`---is still in its original order---`);
   locationsList.map((location: string) => {
     console.log(location);
-  });
-  console.log(`----------------------`)
+  }); 
 // Step-5
+console.log(`---Reverse ordered, Alphabetically---`)
   locationsList.reverse().map((location: string) => {
     console.log(location);
   });
-  console.log(`----------------------`)
-
+  console.log(`---is still in its original order---`);
   locationsList.map((location: string) => {
     console.log(location);
   });
-  console.log(`----------------------`)
-
+  console.log(`---Again reverse to show that in its original order---`);
   locationsList.reverse();
   locationsList.map((location: string) => {
     console.log(location);
   });
-  console.log(`----------------------`)
-
+  console.log(`---Again reverse---`);
   locationsList.reverse();
   locationsList.map((location: string) => {
     console.log(location);
   });
-  console.log(`----------------------`)
+  console.log(`---By sorting: its order has been changed.---`)
   locationsList.sort();
   locationsList.map((location: string) => {
     console.log(location);
   });
-  console.log(`----------------------`)
+  console.log(`---Again sorting & Reverse---`)
   locationsList.reverse().sort();
   locationsList.map((location: string) => {
     console.log(location);
