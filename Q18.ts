@@ -38,7 +38,7 @@ console.log(`---Reverse ordered, Alphabetically---`)
   locationsList.map((location: string) => {
     console.log(location);
   });
-  console.log(`---By sorting: its order has been changed.---`)
+  console.log(`---By sorting:  Show that its order has been changed.---`)
   locationsList.sort();
   locationsList.map((location: string) => {
     console.log(location);
