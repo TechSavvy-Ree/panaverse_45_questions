@@ -8,7 +8,7 @@ let cars:{
 let car1={
    brand:"Honda",
    model:"Civic",
-   year:2005,
+   year:2004,
    color:"White"
 }
 console.log("Information about cars:");
