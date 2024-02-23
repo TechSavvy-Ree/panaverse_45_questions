@@ -1,11 +1,10 @@
 /*22. Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen. Change an index in one of your programs
 to produce an index error. Make sure you correct the error before closing the program.
 */
-// Define an array
 let myArray: number[] = [1, 2, 3, 4, 5];
  // 'myArray' has 5 elements, indexed from 0 to 4. 
 
-// Try to access an element using an out-of-bounds index
+// Try to access an element
 let index = 10; 
 console.log(myArray[index]); // This line will produce an index error
 
