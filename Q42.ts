@@ -10,11 +10,11 @@ let show_magicians=(magicians: string[]) => {
 
 function make_great(magicians: string[]): void {
     for (let i = 0; i < magicians.length; i++) {
-        magicians[i] = "the Great " + magicians[i];
+        magicians[i] = "The Great " + magicians[i];
     }
 }
 
-const magiciansArray: string[] = ["Merlin", "Harry Houdini", "David Copperfield", "Penn & Teller"];
+const magiciansArray: string[] = ["Rick Jay", "Teller", "David Copperfield"];
 
 make_great(magiciansArray);
 show_magicians(magiciansArray);
